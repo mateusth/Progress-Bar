@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress Bar</title>
+  <meta name="description" content="Progress Bar">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Memory Game, game">
+  <meta name="author" content="Mateus Teixeira Herculano">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Rancho&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <script src="script.js" defer></script>
+  <script src="https://kit.fontawesome.com/3394bb9f55.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Progress Bar<span id="version">v1.0</span></h1>
+  </header>
+  <hr>
+  <main id="container">
+    <div id="progressBar">
+      <div id="stp1Box">
+        <div id="stp1" class="circle active">✓</div>
+        <h5 class="stepTxt activeTxt">Step 1</h5>
+      </div>
+      <div id="stp2Box">
+        <div id="stp2" class="circle">✖</div>
+        <h5 class="stp2Txt">Step 2</h5>
+      </div>
+      <div id="stp3Box">
+        <div id="stp3" class="circle">✖</div>
+        <h5 class="stp3Txt">Step 3</h5>
+      </div>
+      <div id="stp4Box">
+        <div id="stp4" class="circle">✖</div>
+        <h5 class="stp4Txt">End</h5>
+      </div>
+    </div>
+    <hr id="bar1">
+    <hr id="bar2">
+
+    <div id="buttons">
+      <button id="prev">Prev</button>
+      <button id="next">Next</button>
+    </div>
+  </main>
+  <div id="signature">
+    <a href="https://github.com/mateusth" target="_blank" title="Github"><code>Mateus T. Herculano</code>
+      <i class="fab fa-github"></i></a>
+  </div>
+</body>
+</html>
