@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #c5eaf1;
+  padding: 5px
+}
+
+body {
+  background-color: #5bd4ec;
+  padding: 1px 20px;
+  border-radius: 30px 10px 55px 10px;
+  margin: auto;
+  width: 80%;
+  min-width: 400px;
+  max-width: 510px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+header {
+  font-family: 'Rancho', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5px;
+  padding: 2px;
+}
+
+#version {
+  margin-left: 10px;
+  padding: 3px;
+  font-size: 25px;
+  color: red;
+  background-color: white;
+  border: #321e01 solid 2px;
+  border-radius: 68% 32% 53% 47% / 67% 17% 83% 33%;
+  box-shadow: #422800 3px 3px 0 0;
+}
+
+hr {
+  margin: 10px 0
+}
+
+/* progress bar*/
+
+main {
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 200px;
+  height: 150px;
+}
+
+#progressBar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+
+}
+
+#bar1,
+#bar2 {
+  position: absolute;
+  z-index: 1;
+  background-color: white;
+  border: none;
+  margin-left: 5px;
+  width: 10px;
+  height: 5px;
+  top: 89px;
+  transition: 0.4s linear width;
+}
+
+#bar1 {
+width: 190px;
+}
+
+#bar2 {
+  background-color: green;
+}
+
+.circle {
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+  color: #b8b8b8;
+  border-radius: 50%;
+  border: 3px #b8b8b8 solid;
+  padding-top: 2px;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+
+}
+
+.active {
+  border: 3px green solid;
+  color: green;
+}
+
+h5 {
+  color: #7d7d7d;
+}
+
+.activeTxt {
+  color: green;
+}
+
+button {
+  margin: 5px;
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+  line-height: 1.1;
+  padding: 8px;
+  transition: 200ms;
+}
+
+/* buttons */
+button:hover {
+  background-color: #07c;
+}
+
+button:active {
+  transform: translate(1px, 1px);
+}
+
+/* footer */
+#signature {
+  display: flex;
+  font-family: "Playwrite CU", cursive;
+  font-size: 13px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+i {
+  font-size: 15px;
+  margin: 0px 5px;
+}
